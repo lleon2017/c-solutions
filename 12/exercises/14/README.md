@@ -12,5 +12,9 @@ entire `temperatures` array for the value 32.
 ### Solution
 
 ```c
-bool has32 = search(temperatures, 7 * 24, 32);
+/*
+ * temperatures is a pointer to a one-dimensional array of int.
+ * temperatures[0] is the pointer to int.
+ */
+bool has32 = search(temperatures[0], 7 * 24, 32);
 ```
